@@ -2,7 +2,7 @@ import Link from "next/link";
 import styled from "styled-components";
 
 export const Container = styled.header`
-  background-color: #2694A7;
+  background-color: #CCB994;
   height: 60px;
 
   display: flex;

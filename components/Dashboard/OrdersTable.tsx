@@ -62,14 +62,14 @@ const Wrapper = styled.div`
   overflow: hidden;
 `
 const TableHeader = styled.div`
-  background-color: #2694A7;
+  background-color: #CCB994;
   overflow-x: auto;
 `
 const TableContent = styled.div`
   height: 500px;
   overflow-x: auto;
   margin-top: 0px;
-  border: 1px solid #2694A7;
+  border: 1px solid #CCB994;
   border-radius: 0 0 10px 10px;
 `
 const Table = styled.table`

@@ -123,7 +123,7 @@ export const CheckoutButton = styled.a`
   margin-top: 8px;
   padding: calc(.875rem - 1px) calc(1.5rem - 1px);
 
-  background-color: #2694A7;
+  background-color: #CCB994;
   background-clip: padding-box;
 
   border: 1px solid transparent;
@@ -161,7 +161,7 @@ export const CheckoutButton = styled.a`
   }
 
   &:active {
-    background-color: #2694A7;
+    background-color: #CCB994;
     box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
     transform: translateY(0);
   }

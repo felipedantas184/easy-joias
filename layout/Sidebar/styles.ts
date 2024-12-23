@@ -93,13 +93,13 @@ export const Item = styled.li`
   transition: 0.2s ease-in-out;
 
   &:hover {
-    color: #2694A7;
+    color: #CCB994;
     transition: 0.2s ease-in-out;
   }
   &::after {
     display:block;
     content: '';
-    border-bottom: solid 2px #2694A7;  
+    border-bottom: solid 2px #CCB994;  
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
   }
@@ -174,7 +174,7 @@ export const CheckoutButton = styled.a`
   }
 
   &:active {
-    background-color: #2694A7;
+    background-color: #CCB994;
     box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
     transform: translateY(0);
   }
@@ -229,7 +229,7 @@ export const LogoutButton = styled.button`
   }
 
   &:active {
-    background-color: #2694A7;
+    background-color: #CCB994;
     box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
     transform: translateY(0);
   }

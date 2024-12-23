@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  background-color: #2694A7;
+  background-color: #CCB994;
 
   display: flex;
   flex-direction: column;

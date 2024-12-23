@@ -14,12 +14,12 @@ const DetailButton = ({ product }: { product: DetailProduct }) => {
       {(!cartItem) ? (
         <>
           <AddToCart onClick={() => dispatch(addToCart(product))}>Adicionar ao Carrinho</AddToCart>
-          <Favorite onClick={() => (navigator.share({ title: product.title, text: `Encontrei esse ${product.title} no site da Tecdata! Confere clicando nesse link"`, url: window.location.href }))} ><FaShare size={16} color='#2694A7' /></Favorite>
+          <Favorite onClick={() => (navigator.share({ title: product.title, text: `Encontrei esse ${product.title} no site da Tecdata! Confere clicando nesse link"`, url: window.location.href }))} ><FaShare size={16} color='#CCB994' /></Favorite>
         </>
       ) : (
         <>
           <AddToCart disabled={product.selectedVariant.stock <= cartItem.quantity} onClick={() => dispatch(addToCart(product))}>Adicionar ao Carrinho ({cartItem?.quantity})</AddToCart>
-          <Favorite onClick={() => (navigator.share({ title: product.title, text: `Encontrei esse ${product.title} no site da Tecdata! Confere clicando nesse link"`, url: window.location.href }))} ><FaShare size={16} color='#2694A7' /></Favorite>
+          <Favorite onClick={() => (navigator.share({ title: product.title, text: `Encontrei esse ${product.title} no site da Tecdata! Confere clicando nesse link"`, url: window.location.href }))} ><FaShare size={16} color='#CCB994' /></Favorite>
         </>
       )}
     </ButtonGroup>
@@ -49,7 +49,7 @@ const AddToCart = styled.button`
   margin: 0;
   padding: calc(.875rem - 1px) calc(1.5rem - 1px);
 
-  background-color: #2694A7;
+  background-color: #CCB994;
   background-clip: padding-box;
 
   border: 1px solid transparent;
@@ -87,7 +87,7 @@ const AddToCart = styled.button`
   }
 
   &:active {
-    background-color: #2694A7;
+    background-color: #CCB994;
     box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
     transform: translateY(0);
   }

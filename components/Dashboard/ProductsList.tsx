@@ -61,7 +61,7 @@ const AddButton = styled(Link)`
   padding: 12px;
   margin-top: 8px;
 
-  background-color: #2694A7;
+  background-color: #CCB994;
   background-clip: padding-box;
 
   border: none;
@@ -99,7 +99,7 @@ const AddButton = styled(Link)`
   }
 
   &:active {
-    background-color: #2694A7;
+    background-color: #CCB994;
     box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
     transform: translateY(0);
   }

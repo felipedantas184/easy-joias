@@ -9,7 +9,7 @@ const ProductCard = ({product} : {product : Product}) => {
   const cart = useSelector((state: any) => state.cart);
 
   useEffect(() => {
-    localStorage.setItem("easy-phone-cart", JSON.stringify(cart))
+    localStorage.setItem("easy-joias-cart", JSON.stringify(cart))
   }, [cart])
 
   return (
@@ -99,7 +99,7 @@ const ViewProductButton = styled(Link)`
   margin: 0;
   padding: 8px 12px;
 
-  background-color: #2694A7;
+  background-color: #CCB994;
   background-clip: padding-box;
 
   border: none;
@@ -137,7 +137,7 @@ const ViewProductButton = styled(Link)`
   }
 
   &:active {
-    background-color: #2694A7;
+    background-color: #CCB994;
     box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
     transform: translateY(0);
   }

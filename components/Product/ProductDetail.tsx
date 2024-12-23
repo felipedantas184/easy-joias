@@ -28,7 +28,7 @@ const ProductDetail = ({ product }: { product: Product }) => {
   const cart = useSelector((state: any) => state.cart);
 
   useEffect(() => {
-    localStorage.setItem("easy-phone-cart", JSON.stringify(cart))
+    localStorage.setItem("easy-joias-cart", JSON.stringify(cart))
   }, [cart])
 
   return (

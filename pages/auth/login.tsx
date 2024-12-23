@@ -38,7 +38,7 @@ export default function LoginPage() {
       <Wrapper>
         <LBox>
           <Heading>
-            <Image src={'/assets/images/img/EasyPhoneLogoTransparent.png'} alt='Easy Phone Logo' width={300} height={150} />
+            <Image src={'/assets/images/img/EasyJoiasLogoTransparent.png'} alt='Easy Phone Logo' width={300} height={150} />
             <Title>Login</Title>
           </Heading>
           <Form onSubmit={handleLogin}>
@@ -83,7 +83,7 @@ export default function LoginPage() {
 
 
 const Container = styled.section`
-  background-color: #2694A7;
+  background-color: #CCB994;
   min-height: 100vh;
 
   display: flex;
@@ -166,7 +166,7 @@ const BWrap = styled.div`
   gap: 8px;
 `
 const FButton = styled.button`
-  background-color: #2694A7;
+  background-color: #CCB994;
   color: #fff;
   font-weight: 500;
   font-size: 14px;
